@@ -75,7 +75,6 @@
 .zurag2 {
   height: 600px;
   width: 1170px;
-  margin: 20px 0px 0px 0px;
   position: relative;
   background-image: url(https://scontent.fuln2-2.fna.fbcdn.net/v/t39.30808-6/271668488_3082844951955917_2904649252641944822_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=8JO7PmJgfH4Q7kNvgG3hrou&_nc_ht=scontent.fuln2-2.fna&oh=00_AYD3qhyNmn0ekTrkWH-IYIBuysnKMrIx-WJ7nCXG5Qpj3w&oe=668840D0);
   background-size: cover;
@@ -110,7 +109,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin-top: 20px;
+
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -174,7 +173,7 @@ p.outset {
   display: flex;
   flex-direction: column;
   background-color: black;
-  width: 525px;
+  width: 570px;
   height: 500px;
   overflow: scroll;
   border-radius: 10px;
@@ -230,17 +229,4 @@ p.outset {
   animation-name: example;
   animation-duration: 0.5s;
   animation-iteration-count: infinite;
-}
-.westudio:hover {
-  background-color: rgba(255, 255, 255, 0.303);
-  animation-
-}
-
-@media example {
-  from {
-    background-color: red;
-  }
-  to {
-    background-color: yellow;
-  }
 }
