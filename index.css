@@ -53,21 +53,15 @@
   justify-content: space-between;
   background-color: black;
   position: fixed;
+  z-index: 9999;
 }
 .full {
   margin-top: 150px;
   display: flex;
   justify-content: center;
-
   height: 200vh;
 }
-.westudio {
-  background-color: whitesmoke;
-  border-top-left-radius: 10px 10px;
-  font-size: 40px;
-  border-bottom-left-radius: 10px 10px;
-  padding: 10px;
-}
+
 .oguulber {
   display: flex;
   border-top-right-radius: 10px 10px;
@@ -91,6 +85,8 @@
   border-top-right-radius: 10px;
 }
 .overlay {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -107,7 +103,7 @@
   font-size: 20px;
 }
 .zurag {
-  height: 350px;
+  height: 340px;
   width: 500px;
   position: relative;
   background-image: url(https://scontent.fuln2-2.fna.fbcdn.net/v/t39.30808-6/439849624_1075835467444212_8311277561780375561_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=75d36f&_nc_ohc=CoJ5EoHFRhAQ7kNvgGl3MCo&_nc_ht=scontent.fuln2-2.fna&oh=00_AYA09UwuEdNff9Z4NX8wP7TMFX8NEygsR81wq24PHbWZeg&oe=66886428);
@@ -127,6 +123,8 @@
   background-color: #d0d3d4ae;
   opacity: 0;
   transition: oposity 0.5 ease;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .zurag:hover .overlay2 {
   opacity: 0.5;
@@ -134,7 +132,7 @@
 .ug1 {
   color: #17202a;
   font-size: 40px;
-  margin-top: 5px;
+
   margin-bottom: 5px;
 }
 .ug2 {
@@ -146,11 +144,103 @@
   margin: 5px;
 }
 .ug {
-  font-size: 40px;
+  font-size: 20px;
 }
 .ugc {
   background-color: whitesmoke;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   padding: 10px;
+}
+.ug4 {
+  font-size: 12px;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+.ug7 {
+  font-size: 15px;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+p.outset {
+  border-style: outset;
+}
+.bagst1 {
+  font-size: 30px;
+}
+.scroll {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 525px;
+  height: 500px;
+  overflow: scroll;
+  border-radius: 10px;
+}
+.bagstbutton {
+  font-size: 40px;
+  display: flex;
+}
+.bagstugc {
+  width: 600px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-top: 1px solid gray;
+}
+.bagstug2 {
+  display: flex;
+  justify-content: start;
+  margin-left: 10px;
+  font-size: 20px;
+}
+.bagstug1 {
+  display: flex;
+  justify-content: start;
+  margin-left: 10px;
+  font-size: 15px;
+  color: #979a9a;
+  top: 0;
+  padding-top: 10px;
+}
+.bagst {
+  color: #f8f9f9;
+  font-size: 30px;
+  padding-left: 15px;
+  font-weight: 500;
+  position: sticky;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+  background-color: black;
+}
+.video {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.westudio {
+  background-color: whitesmoke;
+  border-top-left-radius: 10px 10px;
+  font-size: 40px;
+  border-bottom-left-radius: 10px 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.462);
+  animation-name: example;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+.westudio:hover {
+  background-color: rgba(255, 255, 255, 0.303);
+  animation-
+}
+
+@media example {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
 }
