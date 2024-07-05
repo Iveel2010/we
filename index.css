@@ -59,7 +59,6 @@
   margin-top: 150px;
   display: flex;
   justify-content: center;
-  height: 200vh;
 }
 
 .oguulber {
@@ -149,7 +148,7 @@
   background-color: whitesmoke;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  padding: 10px;
+  padding: 15px;
 }
 .ug4 {
   font-size: 12px;
@@ -216,8 +215,8 @@ p.outset {
   background-color: black;
 }
 .video {
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .westudio {
   background-color: whitesmoke;
@@ -229,4 +228,265 @@ p.outset {
   animation-name: example;
   animation-duration: 0.5s;
   animation-iteration-count: infinite;
+}
+.hosc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.hos1 {
+  display: flex;
+  font-size: 20px;
+  color: #424949;
+  flex-wrap: wrap;
+}
+.hos2 {
+  display: flex;
+  font-size: 30px;
+  color: black;
+  flex-wrap: wrap;
+}
+.hos3 {
+  display: flex;
+  font-size: 20px;
+  color: #e74c3c;
+  flex-wrap: wrap;
+}
+.photo {
+  height: 225px;
+  width: 350px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.photooverlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.321);
+  opacity: 0;
+  transition-duration: 0.5s ease;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.photo:hover .photooverlay {
+  opacity: 0.5;
+}
+.hoscc {
+  display: flex;
+  height: 225px;
+  background-color: whitesmoke;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 1130px;
+  margin-bottom: 20px;
+}
+.photo2 {
+  height: 325px;
+  width: 5 px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.photo2overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.489);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.photo2:hover .photo2overlay {
+  opacity: 0.5;
+}
+.photo3 {
+  height: 600px;
+  width: 400px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.photo3overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.489);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.photo3:hover .photo3overlay {
+  opacity: 0.5;
+}
+.photo2c {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  background-color: whitesmoke;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-bottom: 20px;
+  width: 545px;
+  margin-top: 20px;
+}
+.photo3c {
+  display: flex;
+  flex-direction: column;
+  height: 750px;
+  background-color: black;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-bottom: 20px;
+  width: 400px;
+  margin-top: 20px;
+}
+.hos2c {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+}
+.hos4 {
+  font-size: 20px;
+  color: #424949;
+  flex-wrap: wrap;
+}
+.hos5 {
+  font-size: 29px;
+  color: whitesmoke;
+  flex-wrap: wrap;
+}
+.hos6 {
+  font-size: 20px;
+  color: wheat;
+  flex-wrap: wrap;
+}
+.photo2cc {
+  display: flex;
+  gap: 32.5px;
+  align-items: center;
+}
+.photo3cc {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.tseg {
+  border-bottom: dotted black;
+  width: 900px;
+  margin-top: 5px;
+}
+.photo2cccc {
+  margin-top: 50px;
+}
+.photo2ccc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.more {
+  font-size: 25px;
+}
+.ner {
+  font-size: 40px;
+}
+.store {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 80px;
+}
+.taniltsuulgalogo {
+  height: 60px;
+  border-radius: 50px;
+}
+.taniltsuulga {
+  color: whitesmoke;
+  font-size: 15px;
+}
+.taniltsuulgac {
+  display: flex;
+  flex-direction: column;
+  padding-left: 310px;
+}
+.taniltsuulga2 {
+  color: gray;
+  margin-top: 8px;
+}
+.taniltsuulga2:hover {
+  color: rgba(245, 245, 245, 0.693);
+}
+.taniltsuulga1 {
+  color: whitesmoke;
+  font-size: 20px;
+}
+.store2 {
+  display: flex;
+  background-color: rgba(128, 128, 128, 0.574);
+  color: whitesmoke;
+  border-radius: 5px;
+  align-items: center;
+  padding: 10px;
+}
+.icon2 {
+  height: 20px;
+}
+.icon2c {
+  display: flex;
+  gap: 8px;
+}
+.taniltsuulga2c {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+.icon3 {
+  height: 50px;
+  border-radius: 80px;
+}
+.taniltsuulga4 {
+  color: whitesmoke;
+  font-size: 15px;
+  padding: 30px;
+}
+.photo3ccc {
+  display: flex;
+  gap: 35px;
 }
